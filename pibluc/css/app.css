@@ -102,7 +102,10 @@
 .image {
     width: 40vw;
 }
-
+.secondh1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(4, 4, 180);
+}
 /* the second section in main */
 .conta2{
 display: flex;
@@ -119,7 +122,8 @@ margin-left: 1vw;
 width:20vw;
 gap: 30px;
 justify-content: center;
-color: rgb(16, 16, 219);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(2, 2, 161);
 }
 .box4{
 display: flex;
@@ -146,7 +150,6 @@ width: 24vw;
     flex-direction: column;
     border: 1px solid gray ;
     width: 24vw;
-
 }
 .message i{
     margin-top: 10px;
@@ -159,10 +162,14 @@ width: 24vw;
 .thera{
    
     margin-left: 3vw;
-    height: 50vh;
-    padding: 5vh;
+    height: 40vh;
+    padding: 1vh;
     width: 23w;
     }
+    .para1{
+        color: rgb(190, 190, 190);
+    }
+    /* the footer */
 .container {}
 
 .container-of-footer {
