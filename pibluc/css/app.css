@@ -105,6 +105,18 @@
 
 .container {}
 
+
+.form{
+    width: 70%;
+    background-color: aqua;
+}
+.box-email{
+    display: flex;
+}
+.box-text{
+
+}
+
 .container-of-footer {
     background-color:rgb(49, 69, 132);
     display: flex;
