@@ -1,4 +1,6 @@
-
+body{
+    background-image: url('pibluc/images/header-bg.svg');
+}
 *{
     padding: 0%;
     margin: 0%;
@@ -24,7 +26,7 @@
 .ul1 {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 1vw;
     list-style: none;
 
 }
@@ -60,10 +62,10 @@
 }
 
 .firstbtn {
-    padding: 10px;
+    padding: 0.5vw;
     border: none;
     color: red;
-    background-color: rgb(233, 231, 231);
+    background-color: rgb(244, 239, 239);
     box-shadow: 2px 2px 3px gray;
 }
 
@@ -73,7 +75,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 5vw;
 }
 
 .box1 {
@@ -86,7 +88,7 @@
     display: flex;
     align-items: center;
     color: aliceblue;
-    padding: 20px;
+    padding: 1vw;
     height: 5vh;
     background-color: red;
     border: none;
@@ -101,7 +103,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 2vw;
     margin-left: -5vw;
 }
 
@@ -115,7 +117,7 @@
 /* the second section in main */
 .conta2 {
     display: flex;
-    gap: 30px;
+    gap: 1vw;
     justify-content: center;
     align-items: center;
 }
@@ -126,7 +128,7 @@ flex-direction: column;
 align-items: center;
 margin-left: 1vw;
 width:20vw;
-gap: 30px;
+gap: 3vw;
 justify-content: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: rgb(2, 2, 161);
@@ -183,11 +185,11 @@ color: rgb(2, 2, 161);
 }
 
 .thera {
-
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 3vw;
     height: 40vh;
-    padding: 1vh;
-    width: 23w;
+    padding: 3vh;
+    width: 23ww;
     }
 
     .para1{
@@ -205,9 +207,9 @@ color: rgb(2, 2, 161);
 
 
 .form {
-    margin-top: 20px;
+    margin-top: 5vh;
     width: 75%;
-    height: 400px;
+    height: 60vh;
 }
 
 .title-form {
@@ -222,7 +224,7 @@ color: rgb(2, 2, 161);
 
 .box-email {
     /* margin: 20px; */
-    width: 800px;
+    width: 62.4vw;
     /* padding: 20px; */
     display: flex;
     justify-content: space-between;
@@ -232,22 +234,22 @@ color: rgb(2, 2, 161);
     background-color: rgb(244, 250, 254);
     /* margin-left: 20px; */
     width: 48%;
-    padding: 20px;
+    padding: 3vh;
     border-style: hidden;
 }
 
 .box-text {
     background-color: rgb(244, 250, 254);
     margin-top: 20px;
-    width: 800px;
-    height: 100px;
+    width: 62.4vw;
+    height: 15vh;
 border: none;
 padding: 0.8%;
 }
 
 .box-send {
-    width: 800px;
-    margin-top: 30px;
+    width: 63vw;
+    margin-top: 1vh;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -257,8 +259,8 @@ padding: 0.8%;
 
 .send {
     background-color: rgb(255, 57, 70);
-    width: 140px;
-    padding: 10px;
+    width: 12vw;
+    padding: 1vw;
     border-radius: 10px;
     color: white;
     border: none;
@@ -294,7 +296,7 @@ padding: 0.8%;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 400px;
+    width: 40vw;
     margin-top: 20px;
 }
 
@@ -309,7 +311,7 @@ margin-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
+    width: 20vw;
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
