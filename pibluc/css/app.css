@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 .conta {
     display: flex;
     justify-content: center;
@@ -47,7 +52,7 @@
 
 .line1 {
     position: relative;
-    top: -4vh;
+    top: 1vh;
     height: 1vh;
     background-color: red;
     width: 3vw;
@@ -107,11 +112,11 @@
     color: rgb(4, 4, 180);
 }
 /* the second section in main */
-.conta2{
-display: flex;
-gap: 30px;
-justify-content: center;
-align-items: center;
+.conta2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box3{
@@ -125,41 +130,59 @@ justify-content: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: rgb(2, 2, 161);
 }
-.box4{
-display: flex;
-align-items: center;
-gap: 20px;
-
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1vw;
+    width: 20vw;
+    gap: 30px;
+    justify-content: center;
+    color: rgb(16, 16, 219);
 }
-.message{
+
+.box4 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+   margin-right: 7vw;
+}
+
+.message {
     box-shadow: 2px 2px 3px gray;
     height: 40vh;
-    border: 1px solid gray ;
+    border: 1px solid gray;
     gap: 16px;
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 24vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
 }
-.code{
+
+.code {
     box-shadow: 2px 2px 3px gray;
     height: 40vh;
     gap: 16px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid gray ;
-    width: 24vw;
+    border: 1px solid gray;
+    width: 20vw;
 }
-.message i{
-    margin-top: 10px;
-  font-size: xx-large;
-}
-.code i{
+
+.message i {
     margin-top: 10px;
     font-size: xx-large;
 }
-.thera{
+
+.code i {
+    margin-top: 10px;
+    font-size: xx-large;
+}
+
+.thera {
+
     margin-left: 3vw;
     height: 40vh;
     padding: 1vh;
@@ -172,13 +195,84 @@ width: 24vw;
     /* the footer */
 .container {}
 
+.container-form {
+    margin-top: 5px;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form {
+    margin-top: 20px;
+    width: 75%;
+    height: 400px;
+}
+
+.title-form {
+    color: rgb(59, 78, 138);
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.con {
+    color: rgb(255, 146, 140);
+}
+
+.box-email {
+    /* margin: 20px; */
+    width: 800px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-1 {
+    background-color: rgb(244, 250, 254);
+    /* margin-left: 20px; */
+    width: 48%;
+    padding: 20px;
+    border-style: hidden;
+}
+
+.box-text {
+    background-color: rgb(244, 250, 254);
+    margin-top: 20px;
+    width: 800px;
+    height: 100px;
+border: none;
+}
+
+.box-send {
+    width: 800px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* background-color: brown; */
+    align-items: center;
+}
+
+.send {
+    background-color: rgb(255, 57, 70);
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.send:hover{
+    cursor: pointer;
+}
+
 .container-of-footer {
-    background-color:rgb(49, 69, 132);
+    background-color: rgb(49, 69, 132);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    /* margin-top: 20px; */
 }
 
 .pa1 {
@@ -205,7 +299,8 @@ width: 24vw;
     text-decoration: none;
 
 }
-.box-icoun-fo{
+
+.box-icoun-fo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -214,6 +309,12 @@ width: 24vw;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
+.textlast{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(169, 168, 168);
+}
+.lasth{
+    color: rgb(7, 7, 166);
+}
 
 
